@@ -1,5 +1,5 @@
 # number of rows
-rows = 51
+rows = 5
 
 # print stars
 for i in range(rows+1):
