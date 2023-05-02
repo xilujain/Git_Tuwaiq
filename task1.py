@@ -6,12 +6,8 @@ for i in range(rows+1):
     for j in range(i):
         print("*", end=" ")
     print(" ")
-
-# print new line
-print(" ")
-
 # print stars reverse
-for i in range(rows, 0, -1):
+for i in range(rows-1, 0, -1):
     for j in range(1, i+1):
         print("*", end=" ")
     print(" ")
